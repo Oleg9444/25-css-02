@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+:root {
+    font-family: "Play", sans-serif;
+    
+    --main-font-color: black;
+    --secondary-font-color: white;
+}
+
+body {
+    max-width: 980;
+    margin: auto;
+}
+
+
+
+h1,h2, h3, h4, h5, h6, p {
+header nav .logo {
+    margin: 0;
+}
+
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+header nav .menu {
+    display: flex;
+}
+header nav .menu {
+    padding: 0;
+    justify-content: space-around;
+    
+}
+header nav .menu li {
+    list-style-type: none;
+}
+
+header nav .menu a {
+    text-decoration: none;
+    color: var(--main-font-color);
+    text-transform: uppercase;
+}
+header nav .menu a:hover {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 480px) {
+    header nav {
+        display: flex;
+    }
+    header nav .menu {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/tesla-model-x-black.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+header .banner h1 {
+    color: var(--secondary-font-color);
+    font-size: 4.5rem;
+    margin-bottom: 40px
+}
+.product-card img {
+    display: block;
+    width: 100%;
+}
+
+.product-card {
+    border: 1px solid var(--main-font-color);
+    padding: 10px;
+}
+
+.product-card .button-container {
+     display: flex;
+     justify-content: space-around;
+}
+.product-list {
+    display: grid;
+     grid-gap: 5px;
+}
+
+@media (min-width: 480px) {
+    .product-list    {
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr;
+    }
+@media (min-width: 660px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+@media (min-width: 980px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+     
+@media (min-width: 1450px) {
+    .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+     
+
+
+
+    
+    
+    
